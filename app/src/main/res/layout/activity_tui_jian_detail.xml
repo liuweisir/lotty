@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.game.www.wfcc.ui.HanderLayout
+        android:id="@+id/hander"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <WebView
+        android:id="@+id/webView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></WebView>
+    <TextView
+        android:id="@+id/tvNoDataMsg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="20dp"
+        android:textColor="@color/gray_13"
+        android:text="暂无数据"
+        android:visibility="gone"
+        android:gravity="center"/>
+</LinearLayout>

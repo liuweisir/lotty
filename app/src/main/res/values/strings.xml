@@ -1,0 +1,210 @@
+<resources>
+    <string name="app_name">幸运28预测</string>
+    <string name="button_ok">确定</string>
+    <string name="button_cancel">取消</string>
+    <string name="press_back_quit">再按一次退出应用</string>
+    <string name="error_network_message">出错了,请稍后再试</string>
+
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+    <string name="xlistview_footer_hint_normal">查看更多</string>
+    <string name="xlistview_footer_hint_nomore">已无更多数据</string>
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">松开刷新数据</string>
+    <string name="xlistview_header_hint_loading">正在加载...</string>
+    <string name="xlistview_header_last_time">上次更新时间：</string>
+
+    <string name="viewpager_indicator">%1$d/%2$d</string>
+    <string name="home_tab_message">开奖大厅</string>
+    <string name="home_tab_maillist">竞彩开奖</string>
+    <string name="home_tab_job">竞彩咨询</string>
+    <string name="home_tab_my">设置</string>
+    <string name="title_bar_my_job">我的工作</string>
+
+    <string name="menu_groupchat">发起群聊</string>
+    <string name="menu_addfriend">添加朋友</string>
+    <string name="menu_qrcode">扫一扫</string>
+    <string name="menu_money">微信支付</string>
+    <string name="phone_number">手机号码</string>
+    <string name="verification_code">验证码</string>
+    <string name="login_user_name">用户名</string>
+    <string name="login_password">密码</string>
+    <string name="username_null_error">用户名不能为空!</string>
+    <string name="password_null_error">密码不能为空！</string>
+    <string name="phonenum_null_error">电话号码不能为空！</string>
+    <string name="number_count_error_message">电话号码位数错误！</string>
+    <string name="number_error_message">电话格式错误！</string>
+    <string name="login_error_message">出错了，请从新登录！</string>
+    <string name="bind_phone_number_message">绑定的手机号为：</string>
+    <string name="bind_phone_number">绑定手机号码</string>
+    <string name="bind_phone">绑定手机设备</string>
+    <string name="follow_way">跟进方式</string>
+    <string name="new_designer">新设计师</string>
+    <string name="urgency_level">紧急程度</string>
+    <string name="delegate_name">委派人</string>
+    <string name="bind_phone_number_message_2">手机账号可以用于登录和找回密码</string>
+    <string name="bind_phone_number_title">绑定手机号</string>
+    <string name="bind_phone_title">绑定手机</string>
+    <string name="user_name_setting">账号设置</string>
+    <string name="setting_login_out">退出登录</string>
+    <string name="message_and_puls">消息通知</string>
+    <string name="setting_currency">通用</string>
+    <string name="setting_version_update">版本更新</string>
+    <string name="setting_about">关于</string>
+    <string name="setup">设置</string>
+    <string name="update_password">修改密码</string>
+    <string name="next_follow_time">下次跟进日期</string>
+    <string name="cancel">取消</string>
+    <string name="next">下一步</string>
+    <string name="complete">完成</string>
+    <string name="upload_image">上传图片</string>
+    <string name="last_step">上一步</string>
+    <string name="submit">传递</string>
+    <string name="reget_validation_code">重新获取%1$d</string>
+    <string name="SwitchAccount">切换到账号登录</string>
+    <string name="SwitchPhoneNumber">切换到手机号登录</string>
+    <string name="AccountNumber">账号</string>
+    <string name="password">密码</string>
+    <string name="login">登录</string>
+    <string name="doYouForget">忘记了?</string>
+    <string name="content">内容</string>
+    <string name="searchConditions">搜索姓名/拼音/电话</string>
+    <string name="search_addressBook">搜索通讯录</string>
+    <string name="personalDetail">名片详情</string>
+
+    <string name="search">搜索</string>
+
+    <string name="back">返回</string>
+    <string name="code_null_error">验证码不能为空</string>
+    <string name="old_password">原密码</string>
+    <string name="new_password">新密码</string>
+    <string name="confirm_new_password">确认新密码</string>
+    <string name="forget_old_password">忘记原密码？</string>
+    <string name="change_password">修改密码</string>
+
+    <string name="launch_customer">新建见面客户</string>
+    <string name="modify_customer">编辑见面客户</string>
+    <string name="old_password_null_error">请填写原密码！</string>
+    <string name="new_password_null_error">请填写新密码！</string>
+    <string name="confirm_new_password_null_error">请填写确认新密码！</string>
+    <string name="password_length_error">密码最少6位最多14位！</string>
+    <string name="new_password_not_equals">两次新密码填写不相同！</string>
+    <string name="new_password_equals_old_password">新密码不能和原密码相同！</string>
+    <string name="change_ok">修改成功</string>
+    <string name="change_phone_number">更换手机号码</string>
+    <string name="change_phone">更换手机设备</string>
+    <string name="company">公司</string>
+    <string name="department">部门</string>
+    <string name="contact">联系人</string>
+    <string name="collect_contact">收藏联系人</string>
+    <string name="see_customer">见面客户</string>
+    <string name="notepad_title">记事本</string>
+    <string name="leave_name">请假调休单</string>
+    <string name="name">姓名</string>
+    <string name="phone_mail_list_add">手机通讯录添加</string>
+    <string name="designer_name">设计师名称</string>
+    <string name="stff_name">员工名称</string>
+    <string name="area_name">楼盘名称</string>
+    <string name="search_customer_name_phone">客户姓名/电话</string>
+    <string name="search_contract_name_hint">楼盘名称/客户姓名/电话</string>
+    <string name="customer_source">客户来源</string>
+    <string name="customer_level">客户意向</string>
+    <string name="select_customer_level">选择客户意向</string>
+    <string name="customer_desc">客户说明</string>
+
+
+    <string name="error_message">出错了，请稍后再试！</string>
+    <string name="add_follow_up_record">添加跟进记录 +</string>
+    <string name="examination_and_approval">审批</string>
+    <string name="customer_message">客户信息</string>
+    <string name="contract_message">合同信息</string>
+    <string name="QueryingFromServer">正在从服务器检索</string>
+    <string name="noResult">无结果</string>
+    <string name="makeACall">拨打电话</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+    <string name="today">今天：</string>
+    <string name="collectSuccess">收藏成功</string>
+    <string name="cancelSuccess">取消成功</string>
+
+    <string name="pickerview_year">年</string>
+    <string name="pickerview_month">月</string>
+    <string name="pickerview_day">日</string>
+    <string name="pickerview_hours">时</string>
+    <string name="pickerview_minutes">分</string>
+    <string name="pickerview_seconds">秒</string>
+    <string name="add_follow">新建跟进记录</string>
+    <string name="leave_title">新建请假调休单</string>
+    <string name="update_leave_title">编辑请假调休单</string>
+    <string name="newEgress">新建外出申请</string>
+    <string name="editEgress">编辑外出申请</string>
+    <string name="change_designer">变更设计师</string>
+
+    <!--================================================================-->
+    <string name="flow_submit">流程传递</string>
+    <string name="flow_abort">流程中止</string>
+    <string name="flow_adopt">流程通过</string>
+    <string name="flow_back">流程打回</string>
+    <string name="flow_delegate">流程委派</string>
+    <string name="flow_view_copy">流程查看</string>
+
+
+    <!--================================================================-->
+    <string name="confirm">确定</string>
+    <string name="contract">合同</string>
+    <string name="notice_title">公告</string>
+    <string name="notice">通知</string>
+
+    <string name="untreatedFlowNodeLogName">未处理任务</string>
+    <string name="treatedFlowNodeLogName">已处理任务</string>
+    <string name="noPhoneNums">无相关号码</string>
+
+    <string name="moveAndScale">移动和缩放</string>
+
+    <string name="cont_add">新建合同</string>
+    <string name="cont_edit">编辑合同</string>
+    <string name="package_catg_name">套餐类型</string>
+    <string name="noData">暂无数据</string>
+    <string name="sendMsg">发短信</string>
+    <string name="egressList">外出申请</string>
+    <string name="bind_phone_message">绑定手机设备可用于工地签到</string>
+    <string name="noPendingWork">没有未处理的工作</string>
+    <string name="untreatedTask">未处理任务</string>
+    <string name="nothingNeedToDo">真棒,你都处理完了!</string>
+    <string name="treatedTask">已处理任务</string>
+    <string name="myTask">我的流程</string>
+    <string name="check">查看...</string>
+    <string name="theLastestNotice">最新通知</string>
+    <string name="newstNotepad">记事本</string>
+    <string name="noNotice">暂无最新通知!</string>
+    <string name="noNotepad">暂无记事本!</string>
+    <string name="deleteSuccess">删除成功!</string>
+    <string name="sureToDeleteOutList">确定删除外出单？</string>
+    <string name="edit">编辑</string>
+    <string name="delete">删除</string>
+    <string name="pleaseWaitAMoment">请稍等</string>
+    <string name="select_flow_str">查看流程</string>
+    <string name="startApplicationForm">新建开工申请单</string>
+    <string name="add_worker">新建工人</string>
+    <string name="my_worker_title">我的工人</string>
+    <string name="worker_detail_title">工人详情</string>
+    <string name="plan_detail_title">工程项目详情</string>
+    <string name="site_detail_title">工地详情</string>
+    <string name="complete_acpt">完成验收</string>
+    <string name="add_rectify_title">添加整改单</string>
+    <string name="select_project_name_title">整改项目</string>
+    <string name="photo_title">照片</string>
+    <string name="add_image_title">上传图片</string>
+    <string name="acpt_image_title">验收图片</string>
+    <string name="my_rectify_title">我的整改单</string>
+    <string name="supplier_act_title">供应商活动详情</string>
+    <string name="supplier_rwd_puh_title">供应商罚款单详情</string>
+    <string name="lianison_title">工作联络单</string>
+    <string name="liansion_type_title">联络类型</string>
+    <string name="hydropower_title">水电增项单</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">首页</string>
+    <string name="title_dashboard">工具箱</string>
+    <string name="title_notifications">通知</string>
+</resources>
+
+
