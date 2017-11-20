@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/My256LotteryTwo.iml" filepath="$PROJECT_DIR$/My256LotteryTwo.iml" />
+      <module fileurl="file://D:\sihuo\sihuo-dev\lotty\My256LotteryTwo.iml" filepath="D:\sihuo\sihuo-dev\lotty\My256LotteryTwo.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://D:\sihuo\sihuo-dev\lotty\app\app.iml" filepath="D:\sihuo\sihuo-dev\lotty\app\app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lotty.iml" filepath="$PROJECT_DIR$/lotty.iml" />
     </modules>
   </component>
 </project>
