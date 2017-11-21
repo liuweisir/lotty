@@ -12,7 +12,7 @@ android {
     buildToolsVersion '25.0.0'
     defaultConfig {
 
-        applicationId "com.lottery.wfc112115"
+        applicationId "com.lottery.wfc112117"
         minSdkVersion 15
         targetSdkVersion 23
         versionCode 1

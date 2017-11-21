@@ -40,7 +40,7 @@
                 android:layout_gravity="center"
                 android:textColor="@color/homeTabTextColor"
                 android:layout_below="@+id/imgMessage"
-                android:text="资讯"
+                android:text="热点"
                />
             <TextView
                 android:id="@+id/unread_msgs_number"
@@ -192,7 +192,7 @@
                 android:textSize="11dp"
                 android:layout_gravity="center"
                 android:textColor="@color/homeTabTextColor"
-                android:text="设置"/>
+                android:text="查询"/>
 
             <TextView
                 android:id="@+id/unread_my_number"

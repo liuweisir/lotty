@@ -117,7 +117,7 @@ public class WelcomeActivity extends AppCompatActivity implements OpenLotteryVie
 
 
     private void queryPersonByObjectId() {
-        String id = "lw2017112112";
+        String id = "lw2017112118";
         mOpenLotteryPrestener.selectAboutUs(id, new OpenLotteryView() {
             @Override
             public void onSuccess(String json) {
