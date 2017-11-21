@@ -40,7 +40,7 @@
                 android:layout_gravity="center"
                 android:textColor="@color/homeTabTextColor"
                 android:layout_below="@+id/imgMessage"
-                android:text="热门"
+                android:text="资讯"
                />
             <TextView
                 android:id="@+id/unread_msgs_number"
@@ -80,7 +80,7 @@
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="10dp"
                 android:layout_gravity="center_horizontal"
-                android:src="@drawable/home_tab_maillist_selected"/>
+                android:src="@drawable/home_tab_job_selected"/>
             <TextView
                 android:id="@+id/tvMailList"
                 android:layout_width="wrap_content"
@@ -91,7 +91,7 @@
                 android:textSize="11dp"
                 android:layout_gravity="center"
                 android:textColor="@color/homeTabTextColor"
-                android:text="比分"/>
+                android:text="走势"/>
             <TextView
                 android:id="@+id/unread_mail_number"
                 android:layout_width="24dp"
@@ -131,7 +131,7 @@
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="10dp"
                 android:layout_gravity="center_horizontal"
-                android:src="@drawable/home_tab_job_selected"/>
+                android:src="@drawable/home_tab_maillist_selected"/>
             <TextView
                 android:id="@+id/tvJob"
                 android:layout_width="wrap_content"
@@ -142,7 +142,7 @@
                 android:textSize="11dp"
                 android:layout_gravity="center"
                 android:textColor="@color/homeTabTextColor"
-                android:text="推球"/>
+                android:text="开奖"/>
             <TextView
                 android:id="@+id/unread_job_number"
                 android:layout_width="24dp"

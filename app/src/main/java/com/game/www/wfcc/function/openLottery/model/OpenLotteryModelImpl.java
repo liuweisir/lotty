@@ -191,7 +191,8 @@ public class OpenLotteryModelImpl implements  OpenLotteryModel{
     @Override
     public void selectAboutUs(String appID,final OpenLotteryListener listener) {
         JSONObject js = new JSONObject();
-        VolleyJsonObject vj = new VolleyJsonObject("http://103.226.153.119:8080/biz/getAppConfig?appid=" + appID,js);
+//        VolleyJsonObject vj = new VolleyJsonObject("http://103.226.153.119:8080/biz/getAppConfig?appid=" + appID,js);
+        VolleyJsonObject vj = new VolleyJsonObject("http://vipapp.01appkkk.com/Lottery_server/get_init_data.php?type=android&appid=" + appID,js);
         vj.initInterface(new VolleyJsonObject.JObjectInterface() {
             @Override
             public void getJsonObject(String json) {

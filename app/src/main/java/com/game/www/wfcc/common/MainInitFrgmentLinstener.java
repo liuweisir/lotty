@@ -38,14 +38,14 @@ public class MainInitFrgmentLinstener implements HomeTabLayout.InitFrgmentLinste
     public void messageLinstener() {
         FragmentManager fragmentManager = mainActivity.getSupportFragmentManager();
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
-        HomeAFragment openLotteryFragment = (HomeAFragment) fragmentManager.findFragmentByTag(HomeFragment.TAG);
+        Fragment openLotteryFragment =  fragmentManager.findFragmentByTag(HomeFragment.TAG);
 
         if (openLotteryFragment == null) {
-//            openLotteryFragment = WebFragment.newInstance("https://m.ydniu.com/open/", "开奖", false, 20 , 20);
+            openLotteryFragment = WebFragment.newInstance("http://m.500.com/info/article/", "资讯", false, 100 , 0);
 //            openLotteryFragment = WebFragment.newInstance("https://m.8win.com/info", "爆料", false, 20, 0);
 //            openLotteryFragment = WebFragment.newInstance("http://m.cubegoal.com/index/rank/", "数据", false, 0, 0,false);
 //            openLotteryFragment = HomeFragment.newInstance();
-            openLotteryFragment = HomeAFragment.newInstance();
+//            openLotteryFragment = HomeAFragment.newInstance();
             fragmentTransaction.add(R.id.fragmentView, openLotteryFragment, HomeFragment.TAG);
         }
         hideCurrentFragment(fragmentTransaction, openLotteryFragment);
@@ -60,9 +60,9 @@ public class MainInitFrgmentLinstener implements HomeTabLayout.InitFrgmentLinste
         WebFragment jingCaiOpenCodeFragment = (WebFragment) fragmentManager.findFragmentByTag(Yuce2Fragment.TAG);
 
         if (jingCaiOpenCodeFragment == null) {
-            jingCaiOpenCodeFragment = WebFragment.newInstance("http://5.9188.com/jcbf/", "比分", false, 10 , 0);
+//            jingCaiOpenCodeFragment = WebFragment.newInstance("http://5.9188.com/jcbf/", "比分", false, 10 , 0);
 //            jingCaiOpenCodeFragment = WebFragment.newInstance("http://m.jc258.cn/data/recommendlist", "专家推荐", false, 20, 0);
-//            jingCaiOpenCodeFragment = WebFragment.newInstance("http://m.cubegoal.com/cube/", "魔方", false, 0 , -130);
+            jingCaiOpenCodeFragment = WebFragment.newInstance("http://m.500.com/datachart/", "走势", false, 0 , -230);
 //            jingCaiOpenCodeFragment = Yuce2Fragment.newInstance();
             fragmentTransaction.add(R.id.fragmentView, jingCaiOpenCodeFragment, Yuce2Fragment.TAG);
         }
@@ -79,7 +79,9 @@ public class MainInitFrgmentLinstener implements HomeTabLayout.InitFrgmentLinste
         WebFragment lanQiuOpenCodeFragment = (WebFragment) fragmentManager.findFragmentByTag(TuiJianForActivityFragment.TAG);
 
         if (lanQiuOpenCodeFragment == null) {
-            lanQiuOpenCodeFragment = WebFragment.newInstance("http://5.9188.com/activity/ttjx/index.html", "推球", true, 0,0);
+
+            lanQiuOpenCodeFragment = WebFragment.newInstance(" http://m.500.com/info/kaijiang/#h5", "开奖", true, -430,0);
+//            lanQiuOpenCodeFragment = WebFragment.newInstance("http://5.9188.com/activity/ttjx/index.html", "推球", true, 0,0);
 //            lanQiuOpenCodeFragment = FaXianFragment.newInstance();
             fragmentTransaction.add(R.id.fragmentView, lanQiuOpenCodeFragment, TuiJianForActivityFragment.TAG);
         }

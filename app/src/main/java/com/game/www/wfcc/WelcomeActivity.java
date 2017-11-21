@@ -4,6 +4,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
+import android.text.TextUtils;
+import android.util.Log;
 import android.view.Window;
 import android.view.WindowManager;
 import android.webkit.WebView;
@@ -115,22 +117,25 @@ public class WelcomeActivity extends AppCompatActivity implements OpenLotteryVie
 
 
     private void queryPersonByObjectId() {
-        String id = "lw2017112013";
+        String id = "lw2017112112";
         mOpenLotteryPrestener.selectAboutUs(id, new OpenLotteryView() {
             @Override
             public void onSuccess(String json) {
                 try {
+                    Log.e("liuwei","json="+json
+                    );
                     JSONObject jsonObj = new JSONObject(json);
-                     jsonObj  = jsonObj.getJSONObject("AppConfig");
-//                    String str = jsonObj.getString("data");
-//                    String obj = getFromBASE64(str);
-//                    jsonObj = new JSONObject(obj);
-//                    Log.d("base64解码", obj);
-                    int status = jsonObj.getInt("ShowWeb");
+//                     jsonObj  = jsonObj.getJSONObject("AppConfig");
+                    String str = jsonObj.getString("data");
+                    String obj = getFromBASE64(str);
+                    jsonObj = new JSONObject(obj);
+                    Log.e("liuwei", obj);
+//                    int status = jsonObj.getInt("ShowWeb");
+                    int status = jsonObj.getInt("show_url");
                     if (status == 1) {
-                        int isshowwap = jsonObj.getInt("ShowWeb");
-                        if (isshowwap == 1) {
-                            final String wapurl = jsonObj.getString("Url");
+//                        int isshowwap = jsonObj.getInt("ShowWeb");
+                        final String wapurl = jsonObj.getString("url");
+                        if (!TextUtils.isEmpty(wapurl)) {
                             PreferencesUtil.putUrl(wapurl);
                             Integer time = 2000;//
                             Handler handler = new Handler();
