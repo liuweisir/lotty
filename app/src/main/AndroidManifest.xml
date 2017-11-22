@@ -3,10 +3,10 @@
     package="com.game.www.wfcc">
 
     <permission
-        android:name="com.lottery.wfc112115.permission.JPUSH_MESSAGE"
+        android:name="com.lottery.wfc112212.permission.JPUSH_MESSAGE"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="com.lottery.wfc112115.permission.JPUSH_MESSAGE" />
+    <uses-permission android:name="com.lottery.wfc112212.permission.JPUSH_MESSAGE" />
     <!-- Required  一些系统要求的权限，如访问网络等 -->
     <uses-permission android:name="android.permission.INTERNET" />
     <!-- Required  一些系统要求的权限，如访问网络等 -->
@@ -97,7 +97,7 @@
                 <action android:name="cn.jpush.android.ui.PushActivity" />
 
                 <category android:name="android.intent.category.DEFAULT" />
-                <category android:name="com.lottery.wfc112115" />
+                <category android:name="com.lottery.wfc112212" />
             </intent-filter>
         </activity>
 
@@ -124,7 +124,7 @@
             <intent-filter>
                 <action android:name="cn.jpush.android.intent.DaemonService" />
 
-                <category android:name="com.lottery.wfc112115" />
+                <category android:name="com.lottery.wfc112212" />
             </intent-filter>
         </service>
 
@@ -135,7 +135,7 @@
             android:exported="false">
             <intent-filter android:priority="1000">
                 <action android:name="cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY" /> <!-- Required  显示通知栏 -->
-                <category android:name="com.lottery.wfc112115" />
+                <category android:name="com.lottery.wfc112212" />
             </intent-filter>
             <intent-filter>
                 <action android:name="android.intent.action.USER_PRESENT" />
@@ -166,7 +166,7 @@
                 <action android:name="cn.jpush.android.intent.NOTIFICATION_RECEIVED" /> <!-- Required  用户接收SDK通知栏信息的intent -->
                 <action android:name="cn.jpush.android.intent.NOTIFICATION_OPENED" /> <!-- Required  用户打开自定义通知栏的intent -->
                 <action android:name="cn.jpush.android.intent.CONNECTION" /> <!-- 接收网络变化 连接/断开 since 1.6.3 -->
-                <category android:name="com.lottery.wfc112115" />
+                <category android:name="com.lottery.wfc112212" />
             </intent-filter>
         </receiver>
 
@@ -176,7 +176,7 @@
             android:value="developer-default" />
         <meta-data
             android:name="JPUSH_APPKEY"
-            android:value="3bf2e46cfe295b9a25f2d2e4" /> <!-- </>值来自开发者平台取得的AppKey -->
+            android:value="8fafd0d0bb8d08bdeb8d11b7" /> <!-- </>值来自开发者平台取得的AppKey -->
 
         <activity
             android:name=".activity.WebActivity3"
