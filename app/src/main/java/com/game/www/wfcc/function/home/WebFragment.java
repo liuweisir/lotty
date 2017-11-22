@@ -173,7 +173,7 @@ public class WebFragment extends BaseFragmentV4 implements View.OnClickListener 
                 public void onPageFinished(final WebView view, String url) {
                     Log.d("WebView", "onPageFinished");
                     super.onPageFinished(view, url);
-                    String js =  baiduGgJs + funStr + "remaveByID('div_about');remaveByClass('webtop');remaveByClass('go-zhishi');remaveByClass('menus');remaveByClass('footer');remaveByClass('header');remaveByClass('menuBottomDiv');";
+                    String js =  baiduGgJs + funStr + "remaveByClass('banner_box');remaveByClass('header-panel');remaveByID('div_about');remaveByClass('webtop');remaveByClass('go-zhishi');remaveByClass('menus');remaveByClass('footer');remaveByClass('header');remaveByClass('menuBottomDiv');";
                     view.loadUrl( js);
                     mHander.postDelayed(new Runnable() {
                         @Override
