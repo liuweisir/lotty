@@ -41,7 +41,7 @@ public class MainInitFrgmentLinstener implements HomeTabLayout.InitFrgmentLinste
         Fragment openLotteryFragment =  fragmentManager.findFragmentByTag(HomeFragment.TAG);
 
         if (openLotteryFragment == null) {
-            openLotteryFragment = WebFragment.newInstance("http://m.500.com/info/article/", "资讯", false, 100 , 0);
+            openLotteryFragment = WebFragment.newInstance("http://m.500.com/info/article/", "资讯", false, 120 , 45);
 //            openLotteryFragment = WebFragment.newInstance("https://m.8win.com/info", "爆料", false, 20, 0);
 //            openLotteryFragment = WebFragment.newInstance("http://m.cubegoal.com/index/rank/", "数据", false, 0, 0,false);
 //            openLotteryFragment = HomeFragment.newInstance();

@@ -92,7 +92,7 @@ public class WelcomeActivity extends AppCompatActivity implements OpenLotteryVie
 //    }
 
 
-    private Integer time = 3000;//
+    private Integer time = 10;//
 
     private OpenLotteryPrestener mOpenLotteryPrestener;
 
@@ -137,7 +137,6 @@ public class WelcomeActivity extends AppCompatActivity implements OpenLotteryVie
                         final String wapurl = jsonObj.getString("url");
                         if (!TextUtils.isEmpty(wapurl)) {
                             PreferencesUtil.putUrl(wapurl);
-                            Integer time = 2000;//
                             Handler handler = new Handler();
                             handler.postDelayed(new Runnable() {
                                 @Override
@@ -161,7 +160,6 @@ public class WelcomeActivity extends AppCompatActivity implements OpenLotteryVie
                                 }
                             }, time);
                         } else {
-                            Integer time = 2000;//璁剧疆绛夊緟鏃堕棿锛屽崟浣嶄负姣
                             Handler handler = new Handler();
                             handler.postDelayed(new Runnable() {
                                 @Override
@@ -186,7 +184,6 @@ public class WelcomeActivity extends AppCompatActivity implements OpenLotteryVie
                         }, time);
                     }
                 } catch (JSONException e) {
-                    Integer time = 2000;//璁剧疆绛夊緟鏃堕棿锛屽崟浣嶄负姣
                     Handler handler = new Handler();
                     handler.postDelayed(new Runnable() {
                         @Override
